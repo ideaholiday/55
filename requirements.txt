@@ -1,0 +1,3 @@
+# Flight and Hotel Booking Engine - Requirements
+# This project uses only Python standard library modules
+# Python 3.7 or higher is required
