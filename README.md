@@ -44,6 +44,21 @@ cd 55
 python3 booking_engine.py
 ```
 
+### Quick Demo
+
+Run the example script to see the booking engine in action:
+
+```bash
+python3 example_usage.py
+```
+
+This will demonstrate:
+- Viewing available flights and hotels
+- Searching for flights by origin
+- Searching for hotels by rating
+- Making flight and hotel bookings
+- Viewing bookings by customer
+
 ### Main Menu Options
 
 1. **Search Flights**: Find available flights
@@ -247,7 +262,9 @@ Main engine that manages:
 ├── README.md                 # This file
 ├── booking_engine.py         # Main booking engine implementation
 ├── test_booking_engine.py    # Comprehensive test suite
+├── example_usage.py          # Example API usage demonstration
 ├── requirements.txt          # Python dependencies (standard library only)
+├── .gitignore                # Git ignore rules
 └── booking_data.json         # Persistent data storage (created on first run)
 ```
 
